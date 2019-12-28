@@ -1,5 +1,13 @@
 # IndiUPI Payment - Android Library 
 
+[ ![Download](https://api.bintray.com/packages/gpfreetech/IndiUpi/IndiUpi/images/download.svg?version=1.1) ](https://bintray.com/gpfreetech/IndiUpi/IndiUpi/1.1/link)
+[ ![Bintray](https://img.shields.io/badge/Bintray-v1.1-red) ](https://bintray.com/gpfreetech/IndiUpi/IndiUpi/1.1/link)
+![API](https://img.shields.io/badge/API-19%2B-brightgreen.svg)
+
+![Github Followers](https://img.shields.io/github/followers/govindapaliwal?label=Follow&style=social)
+![GitHub stars](https://img.shields.io/github/stars/govindapaliwal/IndiUpi-Android-Upi-Payment?style=social)
+![GitHub forks](https://img.shields.io/github/forks/govindapaliwal/IndiUpi-Android-Upi-Payment?style=social)
+![GitHub watchers](https://img.shields.io/github/watchers/govindapaliwal/IndiUpi-Android-Upi-Payment?style=social)
 
 Hello Guys, I have created and publish this Android library to easily implement UPI Payment Integration in Android app without any external SDK.
 ***Requirement for this library:*** UPI Deep-linking supported application are *required to be already installed in user mobile before using this library*. <br>
@@ -45,8 +53,8 @@ See below code, these are parameters to start payment processing.
                 .setDescription("DESCRIPTION")
                 .setTransactionId("UNIQUE_TRANSACTION_ID")
                 .setTransactionRefId("UNIQUE_TRANSACTION_REF_ID")
-				.setUrl("HTTP_OR_HTTPS", "WWW.EXAMPLE.COM", "API.php")
-				//internal parameter automatically add in URL same as above UPI request
+		.setUrl("HTTP_OR_HTTPS", "WWW.EXAMPLE.COM", "API.php")
+		//internal parameter automatically add in URL same as above UPI request
                 .build();
 ```
 #### setUrl(...) is optional
